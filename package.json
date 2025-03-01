@@ -1,0 +1,44 @@
+{
+  "name": "floss-privacy-apps",
+  "version": "0.0.1",
+  "description": "A collection of the best security and privacy apps for Android.",
+  "keywords": [
+    "security",
+    "privacy",
+    "cybersecurity",
+    "guide"
+  ],
+  "homepage": "https://github.com/NetEng-Pro/floss-privacy-apps#readme",
+  "bugs": {
+    "url": "https://github.com/NetEng-Pro/floss-privacy-apps/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NetEng-Pro/floss-privacy-apps.git"
+  },
+  "license": "CC-BY-4.0 OR GPL-3.0-or-later",
+  "author": "Scott Lopez",
+  "type": "module",
+  "main": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "npx eslint && prettier --check .",
+    "mdlint": "npx markdownlint-cli2 '**/*.md' '!node_modules/**' '!dist/**'",
+    "fix": "npx eslint --fix && prettier --write .",
+    "clean": "rm -rf dist/* && npm update",
+    "ci": "rm -rf dist/* node_modules package-lock.json && npm install"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "chai": "^5.2.0",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-mocha": "^10.5.0",
+    "globals": "^16.0.0",
+    "markdownlint-cli2": "^0.17.2",
+    "mocha": "^11.1.0"
+  }
+}

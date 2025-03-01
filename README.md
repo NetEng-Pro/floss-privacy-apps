@@ -11,11 +11,9 @@ Copyright © 2024-2025 Scott Lopez
 
 I. Creative Commons Attribution 4.0 International
 
-Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
-To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
+Network Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0"). To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
 
-Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
-You must give appropriate credit, provide a link to the License, and indicate if changes were made.
+Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially. You must give appropriate credit, provide a link to the License, and indicate if changes were made.
 
 The Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable.
 
@@ -49,33 +47,65 @@ Web: <https://bio.neteng.pro>
 
 # Best FOSS Apps for Security and Privacy
 
-[👑 - Privacy Community Fav]
+👑 - Privacy Community Fav
 
-[⭐ - Highly Recommended]
+⭐ - Highly Recommended
 
-[❤ - My personal Fav]
+❤ - Personal Favorite
 
 ---
 
-## ☆ Best Browsers <img src="https://cdn-icons-png.flaticon.com/128/3003/3003530.png" width="25" height="25"/>:
+## ☆ Best Browsers
 
-• <img src="https://user-images.githubusercontent.com/104879897/206898853-4de2afcb-dfe0-434b-8aff-945cf2895a0d.png" width="20" height="20"/> <a href="https://www.firefox.com/">Firefox</a> 🇺🇲 𝘢𝘯𝘥 𝘪𝘵𝘴 𝘍𝘖𝘚𝘚 𝘷𝘦𝘳𝘴𝘪𝘰𝘯𝘴, e.g. <a href="https://www.f-droid.org/packages/org.mozilla.fennec_fdroid/">Fennec</a> <sup>[Repo](https://hg.mozilla.org/mozilla-central/file/tip/mobile/android)</sup>, <a href="https://f-droid.org/packages/us.spotco.fennec_dos/">Mull</a> <sup>[GitHub](https://github.com/Divested-Mobile/Mull-Fenix)</sup> ⭐ ❤️
+### Firefox <img src="https://cdn-icons-png.flaticon.com/128/3003/3003530.png" width="25" height="25" alt="Best Browsers" />
+
+• <img src="https://user-images.githubusercontent.com/104879897/206898853-4de2afcb-dfe0-434b-8aff-945cf2895a0d.png" width="20" height="20"/><a href="https://www.firefox.com/"> Firefox</a> and its' FOSS versions: <a href="https://www.f-droid.org/packages/org.mozilla.fennec_fdroid/">Fennec</a> <sup>[Repo](https://hg.mozilla.org/mozilla-central/file/tip/mobile/android)</sup>, <a href="https://f-droid.org/packages/us.spotco.fennec_dos/">Mull</a> <sup>[GitHub](https://github.com/Divested-Mobile/Mull-Fenix)</sup> ⭐ ❤️
 👑
 
-(𝘛𝘰 𝘶𝘴𝘦 𝘍𝘪𝘳𝘦𝘧𝘰𝘹, 𝘺𝘰𝘶 𝘩𝘢𝘷𝘦 𝘵𝘰 𝘮𝘢𝘬𝘦 <s>𝘮𝘢𝘯𝘺</s> _some_ 𝘤𝘩𝘢𝘯𝘨𝘦𝘴 𝘢𝘯𝘥 _[possibly]_ 𝘢𝘥𝘥 𝘴𝘰𝘮𝘦 𝘢𝘥𝘥𝘰𝘯𝘴 𝘵𝘰 𝘺𝘰𝘶𝘳 𝘣𝘳𝘰𝘸𝘴𝘦𝘳. <a href="https://chrisx.xyz/blog/yet-another-firefox-hardening-guide/">Learn how to make Firefox more privacy friendly</a>)
+> > While Mull is still included in this list, [Divested Computing Group](https://divested.dev/) (creator of DivestOS) has announced their intention to discontinue further updates for Mull. We recommend switching to an alternative such as Fennec. **Use at your own risk!**
 
-- [Betterfox](https://github.com/yokoffing/Betterfox) ⭐ ❤
-  - removes much of the uncertainty and ambiguity regarding editing of the `user.js` file
+There's a misconception that in order for Firefox to be useable, it requires lots of changes and addons. Nothing could be further from the truth. In fact, there are only [a handful of truly useful addons](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) (uBlock Origin, CanvasBlocker, Skip Redirect, etc.).
+
+Realistically, Firefox is no more complicated to set up and configure than Brave, for example. However, if you feel you need a guide, you may want to take a look here:
+
+- [Yet Another Firefox Hardening Guide (Archive.org)](https://web.archive.org/web/20221013104259/https://chrisx.xyz/blog/yet-another-firefox-hardening-guide/)
 
 &nbsp;
 
-• <img src="https://cdn.icon-icons.com/icons2/2552/PNG/512/brave_browser_logo_icon_153013.png" width="20" height="20"/> <a href="https://play.google.com/store/apps/details?id=com.brave.browser">Brave</a> <sup>[GitHub](https://github.com/brave/brave-browser)</sup> 🇺🇲 ⭐ ([𝙃𝙤𝙬 𝙩𝙤 𝙃𝙖𝙧𝙙𝙚𝙣 𝘽𝙧𝙖𝙫𝙚 𝘽𝙧𝙤𝙬𝙨𝙚𝙧](https://github.com/NetEng-Pro/Hardening-Brave-Browser/))
+### Firefox user.js Mods
+
+Firefox `user.js` mods typically consist of a `user.js` file, a `prefs.js` file, or both. The `user.js` file is a user-defined configuration script that enforces specific settings each time the browser starts, allowing users to create a highly customized, secure, and private browsing environment without manually navigating Firefox’s settings or `about:config`.
+
+In contrast, the `prefs.js` file is dynamically updated by Firefox to store user preferences, including those modified through the UI or extensions. When a `user.js` file is present, its settings override `prefs.js` values on startup, ensuring consistency and preventing unwanted changes. This makes `user.js` particularly useful for enforcing privacy, security, and performance optimizations across sessions.
+
+- [Betterfox](https://github.com/yokoffing/Betterfox) ⭐ ❤
+  - removes much of the uncertainty and ambiguity involved with crafting a custom `user.js` file.
+  - this project consists of the best parts of [arkenfox](https://github.com/arkenfox/user.js/wiki) and similar projects without the complexity.
+- [Firefox Profilemaker](https://ffprofile.com/)
+  - A very simple, straightforward tool for creating a custom `prefs.js` file (similar in function to `user.js`).
+  - If you don't mind spending a little more time setting things up, [Betterfox](https://github.com/yokoffing/Betterfox) is a significant upgrade and allows for more customization.
+- [arkenfox](https://github.com/arkenfox/user.js/wiki)
+  - The original `user.js` modification project. While highly functional, this is only recommended for extremely advanced users.
+  - For a visual overview, an [arkenfox GUI](https://arkenfox.github.io/gui/) is also available.
+
+&nbsp;
+
+### Firefox Forks (coming soon!)
+
+- Zen Browser
+- LibreWolf
+
+---
+
+## Chromium
+
+• <img width="25" height="25" src="https://img.icons8.com/color/48/brave-web-browser.png" alt="brave-web-browser"/> <a rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.brave.browser">Brave</a> <sup>[GitHub](https://github.com/brave/brave-browser)</sup> ⭐ [_(How to Harden Brave Browser)_](https://github.com/NetEng-Pro/Hardening-Brave-Browser/)
 
 - Harden Brave Browser before using it! See <a href="#chrome">caveat</a>.
 
 &nbsp;
 
-• <img src="https://camo.githubusercontent.com/6b4ee03be91712db2d81b603a1bb83553e97b66fa49443bf27b641089ea51696/68747470733a2f2f7777772e63726f6d6974652e6f72672f6170705f69636f6e2e706e67" width="20" height="20"> <a href="https://github.com/uazo/cromite/">Cromite</a> 🌍 ⭐
+• <img src="https://camo.githubusercontent.com/6b4ee03be91712db2d81b603a1bb83553e97b66fa49443bf27b641089ea51696/68747470733a2f2f7777772e63726f6d6974652e6f72672f6170705f69636f6e2e706e67" width="20" height="20"> <a rel="noopener noreferrer" href="https://github.com/uazo/cromite/">Cromite</a> 🌍 ⭐
 
 - If you want a Chrome interface, you may like Cromite. See <a href="#chrome">caveat</a>.
 
@@ -83,15 +113,15 @@ Web: <https://bio.neteng.pro>
 
 > **_Note: while the repository for Bromite is still up, the project is largely considered abandoned. Cromite is recommended instead._**
 
-• <img src="https://www.bromite.org/bromite.png" width="20" height="20"/> <a href="https://www.bromite.org/">Bromite</a> <sup>[GitHub](https://github.com/bromite/bromite)</sup> 🌍
+• <img src="https://www.bromite.org/bromite.png" width="20" height="20" alt="bromite-web-browser" /> <a rel noopener noreferrer href="https://www.bromite.org/">Bromite</a> <sup>[GitHub](https://github.com/bromite/bromite)</sup> 🌍
 
 &nbsp;
 
-<p id="chrome">🚫 𝙋𝙡𝙚𝙖𝙨𝙚 <b><i>DO NOT</i></b> 𝙪𝙨𝙚 𝘾𝙝𝙧𝙤𝙢𝙚, 𝙖𝙣𝙙 ✅ 𝙡𝙚𝙩 𝙮𝙤𝙪𝙧 𝙛𝙖𝙢𝙞𝙡𝙮 <b><i>&</i></b> 𝙛𝙧𝙞𝙚𝙣𝙙𝙨 𝙠𝙣𝙤𝙬 𝙩𝙝𝙖𝙩 𝙩𝙝𝙚𝙧𝙚 𝙖𝙧𝙚 𝙜𝙤𝙤𝙙 𝙖𝙡𝙩𝙚𝙧𝙣𝙖𝙩𝙞𝙫𝙚𝙨. <b><i>I</i></b> 𝙧𝙚𝙘𝙤𝙢𝙢𝙚𝙣𝙙 𝙮𝙤𝙪 𝙩𝙤 𝙡𝙚𝙩 𝙩𝙝𝙚𝙢 𝙩𝙧𝙮 𝘾𝙧𝙤𝙢𝙞𝙩𝙚, 𝙖𝙨 𝙞𝙩 𝙡𝙤𝙤𝙠𝙨 𝙡𝙞𝙠𝙚 𝘾𝙝𝙧𝙤𝙢𝙚.</p>
+🚫 **_Please DO NOT use Chrome and ✅ let your family & friends know that there are better alternatives. I recommend you let them try Cromite, as it looks like Chrome._**
 
-> > Please bear in mind that by utilizing Chromium-based browsers, such as Cromite and Brave, you're choosing to perpetuate Google's domination of the browser market, as well as aiding in the further proliferation of the Chromium framework.
-
-> > Cromite and Brave will significantly improve your security and better safeguard your privacy, but IMO these browsers are, sadly, fruit of the poisonous tree, so to speak. As such, you are <strong><em>strongly</em></strong> urged to utilize [Firefox](https://www.firefox.com/) or one of its FLOSS forks, [Fennec](https://www.f-droid.org/packages/org.mozilla.fennec_fdroid/) or [Mull](https://f-droid.org/packages/us.spotco.fennec_dos/). ~ SunDevil311
+> Bear in mind that by utilizing Chromium-based browsers, such as Cromite and Brave, you're choosing to perpetuate Google's domination of the browser market, as well as aiding in the further proliferation of the Chromium framework.
+>
+> > Cromite and Brave will significantly improve your security and better safeguard your privacy, but these browsers are, sadly, fruit of the poisonous tree. As such, you are <strong><em>strongly</em></strong> urged to utilize [Firefox](https://www.firefox.com/) or one of its FLOSS forks, [Fennec](https://www.f-droid.org/packages/org.mozilla.fennec_fdroid/) or [Mull](https://f-droid.org/packages/us.spotco.fennec_dos/). ~ SunDevil311
 
 ---
 
